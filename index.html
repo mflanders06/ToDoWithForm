@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<title>
+    Form Page
+</title>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+    </head>
+    <body>
+        <p>What should my title be?</p>
+        
+        <form name= "taskEntryForm" action="./taskForm.html" method="post">
+            <ul>
+             <li>
+               <label for="task">Task Name:</label>
+               <input type="text" id="task" name="taskName">
+             </li>
+             <li>
+               <label for="date">Date</label>
+               <input type="date" id="taskDate" name="taskDate">
+             </li>
+             <li>
+               <label for="taskNotes">Task Notes:</label>
+               <textarea id="taskNotes" name="taskNotes"></textarea>
+             </li>
+             <li class="button">
+                <button type="submit">Save</button>
+              </li>
+            </ul>
+        </form>
+
+<script src="index.js"></script>
+    </body>
+</html>
