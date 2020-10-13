@@ -9,7 +9,7 @@
     <body>
         <p>What should my title be?</p>
         
-        <form name= "taskEntryForm" onsubmit="submitForm()">
+        <form name= "taskEntryForm">
             <ul>
              <li>
                <label for="task">Task Name:</label>
@@ -24,7 +24,7 @@
                <textarea id="taskNote" name="taskNote"></textarea>
              </li>
              <li class="button">
-                <button type="submit">Save</button>
+                <button type="button" onclick="submitForm();">Save</button>
               </li>
             </ul>
         </form>
